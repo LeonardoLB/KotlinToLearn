@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4491422-5c87-4f10-92e4-298604e75dd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/funcoes/AdicionarMetodoClasseExistente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/funcoes/MultiplosRetornos.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/funcoes/ParametrosImutavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/funcoes/TopLevel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/funcoes/argsNomeados.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/funcoes/paramPadrão.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fundamentos/Cast.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fundamentos/ChecagemTipos.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fundamentos/SmartCast.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/funcoes/FuncaoComoParametro.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/funcoes/FuncaoInfix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/funcoes/VarArgs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/funcoes/funcaoInline.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/funcoes/funcaoInline2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -47,7 +43,9 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
@@ -119,67 +117,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.funcoes.MultiplosRetornosKt">
-    <configuration name="funcoes.ArgsNomeadosKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.funcoes.FuncaoInline2Kt">
+    <configuration name="funcoes.FuncaoComoParametroKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinCourse.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="funcoes.ArgsNomeadosKt" />
+      <option name="MAIN_CLASS_NAME" value="funcoes.FuncaoComoParametroKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="funcoes.MultiplosRetornosKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="funcoes.FuncaoInfixKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinCourse.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="funcoes.MultiplosRetornosKt" />
+      <option name="MAIN_CLASS_NAME" value="funcoes.FuncaoInfixKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="funcoes.ParamPadrãoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="funcoes.FuncaoInline2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinCourse.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="funcoes.ParamPadrãoKt" />
+      <option name="MAIN_CLASS_NAME" value="funcoes.FuncaoInline2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fundamentos.CastKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="funcoes.FuncaoInlineKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinCourse.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.CastKt" />
+      <option name="MAIN_CLASS_NAME" value="funcoes.FuncaoInlineKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fundamentos.SmartCastKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="funcoes.VarArgsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinCourse.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.SmartCastKt" />
+      <option name="MAIN_CLASS_NAME" value="funcoes.VarArgsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.funcoes.MultiplosRetornosKt" />
-        <item itemvalue="Kotlin.funcoes.ParamPadrãoKt" />
-        <item itemvalue="Kotlin.funcoes.ArgsNomeadosKt" />
-        <item itemvalue="Kotlin.fundamentos.CastKt" />
-        <item itemvalue="Kotlin.fundamentos.SmartCastKt" />
+        <item itemvalue="Kotlin.funcoes.FuncaoInline2Kt" />
+        <item itemvalue="Kotlin.funcoes.FuncaoInlineKt" />
+        <item itemvalue="Kotlin.funcoes.FuncaoComoParametroKt" />
+        <item itemvalue="Kotlin.funcoes.FuncaoInfixKt" />
+        <item itemvalue="Kotlin.funcoes.VarArgsKt" />
       </list>
     </recent_temporary>
   </component>
